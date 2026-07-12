@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+  <head>
+       <title>Monisha Resume Portfolio</title>
+    <link rel="stylesheet" href="style.css" >
+    <style>
+      *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Times New Roman', Times, serif;
+    scroll-behavior:smooth;
+}
+body{
+    background:#c26f99;
+    color:#8970a3;
+}
+header{
+    background:#e0b2f4;
+    padding:20px 8%;
+    text-align:center;
+    position:sticky;
+    top:0;
+    box-shadow:0 2px 10px rgba(0,0,0,0.08);
+}
+header h1{
+    color:#0f0f0f;
+    font-size:38px;
+}
+header p{
+    color:#131313;
+    margin:8px 0;
+}
+nav{
+    margin-top:15px;
+}
+nav a{
+    text-decoration:none;
+    color:#661f1f;
+    margin:0 18px;
+    font-weight:600;
+}
+nav a:hover{
+    color:#e686b2;
+}
+.moni{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding:70px 10%;
+    flex-wrap:wrap;
+}
+.photo img{
+    width:280px;
+    height:280px;
+    border-radius:50%;
+    border:8px solid #7b538a;
+    object-fit:cover;
+    box-shadow:0 0 30px #e6dae2;
+}
+.intro{
+    width:500px;
+}
+.intro h2{
+    font-size:42px;
+    color:#0a0a0a;
+}
+.intro h3{
+    margin:15px 0;
+    color:#0e0e0e;
+}
+.intro p{
+    line-height:1.8;
+    color:#0c0c0c;
+}
+button{
+    margin-top:25px;
+    background:linear-gradient(90deg,#be799c,#816997);
+    color:rgb(239, 232, 232);
+    border:none;
+    padding:14px 35px;
+    border-radius:30px;
+    cursor:pointer;
+    font-size:16px;
+    transition:.3s;
+}
+button:hover{
+    transform:scale(1.05);
+}
+section{
+    width:85%;
+    margin:35px auto;
+    background:rgb(248, 177, 220);
+    padding:35px;
+    border-radius:20px;
+    box-shadow:0 10px 20px rgba(126, 96, 122, 0.2);
+}
+#about p{
+    line-height:1.8;
+    color:#0c0c0c;
+}
+section h2{
+    color:#653f3f;
+    margin-bottom:20px;
+}
+section h3{
+    color:#0d0d0d;
+    margin-bottom:15px;
+}
+section p{
+    line-height:1.8;
+    color:#0c0c0c;
+}
+#skills .skills div{
+    background:#F9E3F2;
+    padding:12px 22px;
+    border-radius:25px;
+    font-weight:bold;
+    color:#0a0a0a;
+}
+.card,
+.project{
+    background:#e68ebc77;
+    padding:20px;
+    margin-top:20px;
+    border-left:6px solid #eb96d7;
+    border-radius:15px;
+}
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+}
+ul{
+    margin-left:20px;
+}
+li{
+    margin-bottom:12px;
+}
+form{
+    display:flex;
+    flex-direction:column;
+    font-weight: 100;
+    color: #080707;
+}
+input,
+textarea{
+    margin:10px 0 20px;
+    padding:15px;
+    border:2px solid #9b5887;
+    border-radius:10px;
+    outline:none;
+}
+footer{
+    text-align:center;
+    background:#d8a6ed;
+    padding:20px;
+    color:#0f0e0f;
+    margin-top:40px;
+}
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>MONISHA R N</h1>
+      <p>Electronics and Communication Engineering Student</p>
+      <nav>
+        <a href="http://127.0.0.1:5500/index.html#about">About</a>
+        <a href="http://127.0.0.1:5500/index.html#education">Education</a>
+        <a href="http://127.0.0.1:5500/index.html#skills">Skills</a>
+        <a href="http://127.0.0.1:5500/index.html#projects">Projects</a>
+        <a href="http://127.0.0.1:5500/index.html#cPertificates">Certificates</a>
+        <a href="http://127.0.0.1:5500/index.html#contact">Contact</a>
+      </nav>
+    </header>
+    <section class="moni">
+      <div class="photo">
+        <img src="moni.jpeg" alt="Monisha" />
+      </div>
+      <div class="intro">
+        <h2>Hello, I'm Monisha</h2>
+        <h3>Aspiring Electronics Engineer Student</h3>
+        <p>
+          Passionate about Embedded Systems, Web Development, Artificial
+          Intelligence and IoT. I enjoy learning new technologies and building
+          innovative projects that solve real-world problems.
+        </p>
+        <button>Download Resume</button>
+      </div>
+    </section>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am currently pursuing a Bachelor's degree in Electronics and
+        Communication Engineering. I enjoy working on embedded systems, web
+        technologies and AI-based applications. My goal is to continuously
+        improve my technical knowledge and contribute to meaningful engineering
+        solutions.
+      </p>
+    </section>
+    <section id="education">
+      <h2>Education</h2>
+      <div class="card">
+        <h3>B.E Electronics and Communication Engineering</h3>
+        <p>Present Third year</p>
+      </div>
+      <div class="card">
+        <h3>Higher Secondary</h3>
+        <p>Completed with good academic performance.</p>
+      </div>
+    </section>
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <div class="skills">
+        <div>HTML</div>
+        <div>CSS</div>
+        <div>C</div>
+        <div>JavaScript (basics)</div>
+        <div>Linux</div>
+        <div>Python(basics)</div>
+        <div>Raspberry Pi</div>
+        <div>YOLO</div>
+      </div>
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <img
+          width="500"
+          height="400"
+          src="project.jpeg"
+          alt="Smart Cane Project"
+        />
+        <img
+          width="500"
+          height="400"
+          src="project2.png"
+          alt="Smart Cane Project"
+        />
+        <h3>AI Powered Smart Cane for Visually Impaired</h3>
+        <p>
+          This project is about making a special cane called a Smart Cane. The
+          Smart Cane uses a YOLO system to help people who cannot see well. It
+          has a Raspberry Pi 3 B+. A Pi Camera that take pictures of what is
+          around them. The YOLO system looks at these pictures. Finds things
+          like people, chairs and other things that might be in the way. When it
+          finds something it tells the person using the Smart Cane about it
+          away. It does this by talking to them so they know what is around
+          them. Can avoid bumping into things. The project uses computers and
+          cameras to make a tool that really helps people who cannot see. It
+          makes it easier for them to move around stay safe and be independent.
+          The Smart Cane is an example of how YOLO and other technologies can be
+          used to make life better, for visually impaired individuals.
+        </p>
+      </div>
+    </section>
+    <section id="certificates">
+      <h2>Certificates</h2>
+
+      <a href="nptel.jpeg" target="_blank">
+        <button>NPTEL Certificate</button>
+      </a>
+
+      <a href="maiyyam.jpeg" target="_blank">
+        <button>AI Traineeship Certificate</button>
+      </a>
+
+      <a href="python.jpeg" target="_blank">
+        <button>Python Certificate</button>
+      </a>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <form>
+        <label>Name</label>
+        <input type="text" required="" />
+        <label>Email</label>
+        <input type="email" required="" />
+        <label>Feedback</label>
+        <textarea rows="5" required=""></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+    <footer>
+      <p>
+        Designed Developed by Monisha ECE student (SRI RAMAKRISHNA ENGINEERING
+        COLLEGE, Coimbatore)
+      </p>
+    </footer>
+  </body>
+</html>
+
+
